@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- Exemle de web xml -->
+    <!--
+        <display-name>helloWord</display-name>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>controllers.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    -->
+    <servlet>
+        <servlet-name>CreditFormServlet</servlet-name>
+        <servlet-class>controllers.CreditFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreditFormServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreditServlet</servlet-name>
+        <servlet-class>controllers.CreditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreditServlet</servlet-name>
+        <url-pattern>/credit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepenseFormServlet</servlet-name>
+        <servlet-class>controllers.DepenseFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepenseFormServlet</servlet-name>
+        <url-pattern>/depForm</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DepenseServlet</servlet-name>
+        <servlet-class>controllers.DepenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepenseServlet</servlet-name>
+        <url-pattern>/depense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>controllers.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+</web-app>
